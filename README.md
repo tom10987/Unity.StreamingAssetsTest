@@ -74,8 +74,6 @@ public class StreamingAssetsTest : MonoBehaviour
     // ファイルパスを渡して読み込み開始
     WWW www = new WWW(path);
   
-    /* 読み込みに失敗したときのエラーチェックなどを行う */
-
     // ファイル読み込みが完了するまで処理を中断
     yield return www;
 
