@@ -45,6 +45,21 @@
 ダウンロードしたサンプルプロジェクトを `Unity` から開くか、  
 添付している `.zip` ファイルを解凍して、アプリケーションを起動してください。
 
+---
+
+`.exe` ファイルをビルドすると、必要なデータをまとめたフォルダも一緒に作成されます。
+
+![](https://github.com/tom10987/Unity.StreamingAssetsTest.git/blob/master/Documents/image01.png)
+
+フォルダの中にコピーされた `StreamingAssets` フォルダがあります。
+
+![](https://github.com/tom10987/Unity.StreamingAssetsTest.git/blob/master/Documents/image02.png)
+
+この中に、アプリが使用するアセットが入っています。  
+アセットを変更すると、アプリの表示が変更されます。
+
+---
+
 #### スクリプトの解説
 
 ~~~C#
@@ -73,7 +88,7 @@ public class StreamingAssetsTest : MonoBehaviour
 
     // ファイルパスを渡して読み込み開始
     WWW www = new WWW(path);
-  
+
     // ファイル読み込みが完了するまで処理を中断
     yield return www;
 
