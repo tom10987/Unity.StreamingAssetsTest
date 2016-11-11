@@ -49,11 +49,11 @@
 
 `.exe` ファイルをビルドすると、必要なデータをまとめたフォルダも一緒に作成されます。
 
-![](https://github.com/tom10987/Unity.StreamingAssetsTest.git/blob/master/Documents/image01.png)
+![](https://github.com/tom10987/Unity.StreamingAssetsTest/blob/master/ScreenShots/image01.png)
 
 フォルダの中にコピーされた `StreamingAssets` フォルダがあります。
 
-![](https://github.com/tom10987/Unity.StreamingAssetsTest.git/blob/master/Documents/image02.png)
+![](https://github.com/tom10987/Unity.StreamingAssetsTest/blob/master/ScreenShots/image02.png)
 
 この中に、アプリが使用するアセットが入っています。  
 アセットを変更すると、アプリの表示が変更されます。
